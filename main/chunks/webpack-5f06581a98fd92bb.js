@@ -198,7 +198,7 @@
     (s.tu = function (e) {
       return s.tt().createScriptURL(e);
     }),
-    (s.p = "/_next/"),
+    (s.p = "/main/"),
     (i = { 272: 0 }),
     (s.f.j = function (e, t) {
       var n = s.o(i, e) ? i[e] : void 0;
