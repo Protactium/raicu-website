@@ -18,7 +18,7 @@
         r = i(8792),
         l = i(703),
         c = {
-          src: "/_next/static/media/glow-top.87feda76.svg",
+          src: "/main/media/glow-top.87feda76.svg",
           height: 518,
           width: 1091,
           blurWidth: 0,
