@@ -184,7 +184,7 @@
                         (0, n.jsx)("h1", {
                           className: "".concat(
                             s().className,
-                            " krampusHeading py-4 text-3xl md:text-5xl lg:text-7xl font-bold tracking-tight text-center text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white"
+                            " RAICUHeading py-4 text-3xl md:text-5xl lg:text-7xl font-bold tracking-tight text-center text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white"
                           ),
                           children: "RAICU",
                         }),
