@@ -156,13 +156,19 @@
           children: (0, n.jsx)("div", {
             className: "flex flex-col gap-8 pb-8 md:gap-16 md:pb-16 xl:pb-24",
             children: (0, n.jsxs)(g, {
-              className: "KramusWrapper",
+              className: "RAICUWrapper",
               variants: {
-                initial: { opacity: 0, scale: 0.95 },
+                initial: {
+                  opacity: 0,
+                  scale: 0.95,
+                },
                 final: {
                   opacity: 1,
                   scale: 1,
-                  transition: { duration: 0.8, ease: "easeOut" },
+                  transition: {
+                    duration: 0.8,
+                    ease: "easeOut",
+                  },
                 },
               },
               custom: 300,
@@ -178,7 +184,7 @@
                         (0, n.jsx)("h1", {
                           className: "".concat(
                             s().className,
-                            " raicuHeading py-4 text-3xl md:text-5xl lg:text-7xl font-bold tracking-tight text-center text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white"
+                            " krampusHeading py-4 text-3xl md:text-5xl lg:text-7xl font-bold tracking-tight text-center text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white"
                           ),
                           children: "RAICU",
                         }),
@@ -187,6 +193,26 @@
                             "mt-6 text-sm md:text-base lg:text-lg leading-5 font-medium text-zinc-600 text-center",
                           children:
                             "RAICU is a private organization that aims to provide the best server-side experience.",
+                        }),
+                        (0, n.jsxs)("div", {
+                          className:
+                            "flex flex-col justify-center gap-4 mx-auto mt-8 sm:flex-row sm:max-w-lg ",
+                          children: [
+                            (0, n.jsxs)(r.default, {
+                              href: "https://discord.gg/heTNDwXupK",
+                              className:
+                                "sm:w-1/2 sm:text-center inline-block transition-all space-x-2 rounded px-4 py-1.5 md:py-2 text-base font-semibold leading-7 text-zinc-800 bg-zinc-50 ring-1 ring-transparent hover:text-zinc-100 hover:ring-zinc-600/80 hover:bg-zinc-900/20 duration-150 hover:drop-shadow-cta",
+                              children: [
+                                (0, n.jsx)("span", {
+                                  children: "Join our community",
+                                }),
+                                (0, n.jsx)("span", {
+                                  "aria-hidden": "true",
+                                  children: "→",
+                                }),
+                              ],
+                            }),
+                          ],
                         }),
                       ],
                     }),
