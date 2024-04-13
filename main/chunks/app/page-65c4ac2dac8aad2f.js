@@ -89,7 +89,7 @@
                             (0, n.jsx)("h3", {
                               className:
                                 "pb-3 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-zinc-200/60 via-zinc-200 to-zinc-200/60",
-                              children: "Powered by contяol & 7xDropz",
+                              children: "Powered by Sky & Contrail",
                             }),
                             (0, n.jsx)("p", {
                               className: "mb-8 text-lg text-zinc-400",
